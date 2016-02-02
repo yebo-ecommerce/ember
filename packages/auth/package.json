@@ -1,6 +1,6 @@
 {
   "name": "yebo-ember-auth",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Authentication for a Yebo Ember Application.",
   "directories": {
     "doc": "doc",
@@ -42,8 +42,8 @@
     "ember-addon"
   ],
   "dependencies": {
-    "yebo-ember-core": "0.0.1",
-    "yebo-ember-storefront": "0.0.1",
+    "yebo-ember-core": "0.2.0",
+    "yebo-ember-storefront": "0.2.0",
     "ember-cli-babel": "^5.1.3",
     "ember-cli-htmlbars": "0.7.9",
     "ember-simple-auth": "1.0.1"
