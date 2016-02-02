@@ -1,3 +1,70 @@
+Version 0.2.1:
+ - Merge branch 'develop' of github.com:yebo-ecommerce/ember into develop
+ - WIP
+ - Bump version
+ - Merge pull request #18 from azclick/feature/custumer-page
+ - redirect after finish
+ - Account route/template
+ - Just separate the routes
+ - Unused method
+ - Merge branch 'develop' into bug/loading-checkout-data
+ - change didInit to init for
+ - Wrong price range attribute name
+ - Merge pull request #17 from azclick/feature/search-aggs
+ - Price range filter
+ - Update from the develop branch
+ - Change the price input
+ - Default taxon root (for aggregations)
+ - Filters template with the component yebo-filter-select
+ - Reset the aggregation stuff when leave the page
+ - Change aggregations action
+ - Disable the aggregations refresh
+ - Change taxons and prices templates to the new response format
+ - Set default price ranges (for aggregations)
+ - Merge tag 'address-not-loading' into develop
+ - Merge branch 'hotfix/address-not-loading'
+ - makes checkout load in any circunstance
+ - Merge branch 'feature/infinity-scroll' into develop
+ - define dependencies
+ - make sure actions will be handled
+ - infinity scroll
+ - Getting started with the aggregations into the yebo-grid template
+ - Generate query rules based on the selected aggregations
+ - Pass the selected aggregations to the searchRules method
+ - Return a promise in the searchModel method
+ - Better HTML structure and pass the aggregation variables to the yebo-grid component
+ - Store the currentAggregations to the route and enable the searchModel to be a promise
+ - currentAggregation, selectedAggs and refreshAggregations route variables
+ - Set the change page action to reduce the number of arguments passed to the yebo-grid component
+ - infinity scroll big bang
+ - Merge branch 'develop' of github.com:azclick/yebo-ember into develop
+ - placeholder as parameter
+ - Merge pull request #16 from azclick/feature/generalize-search-route
+ - Start using the default search route in the taxons/show route
+ - Start using the default search route in the products/index route
+ - Default search route
+ - thanks page
+ - validates if is in cart if not set order state
+ - Use link insted
+ - Merge branch 'develop' of github.com:azclick/yebo-ember into develop
+ - Merge master into develop
+ - Merge hotfix/old-addresses into master
+ - Check if the address response is array(in this case there is no old address)
+ - Merge pull request #15 from azclick/feature/payment-methods
+ - Merge branch 'develop' of github.com:azclick/yebo-ember into develop
+ - Add support for no-template payments and onlinedebit template
+ - Redirect the page when its necessary
+ - Set name as default param for all the payments
+ - Merge master into develop
+ - Merge branch 'develop' of github.com:azclick/yebo-ember into develop
+ - Merge pull request #14 from azclick/bugfix/order-checkout
+ - Merge tag '0.0.1' into develop
+ - Merge branch 'release/0.0.1'
+ - Initialize the checkout when the order is loaded
+ - Trigger an event when the order is loaded
+ - Resolve the promise in the right moment
+ - Its not necessary to reload the order model
+
 Version 0.0.1:
  - :arrow_up: bump version
 
