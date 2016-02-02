@@ -2,8 +2,8 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   // Attributes
-  firstName:        DS.attr('string', { persistToServer: true }),
-  lastName:         DS.attr('string', { persistToServer: true }),
+  firstname:        DS.attr('string', { persistToServer: true }),
+  lastname:         DS.attr('string', { persistToServer: true }),
   address1:         DS.attr('string', { persistToServer: true }),
   address2:         DS.attr('string', { persistToServer: true }),
   city:             DS.attr('string', { persistToServer: true }),
@@ -12,8 +12,8 @@ export default DS.Model.extend({
   stateName:        DS.attr('string', { persistToServer: true }),
   alternativePhone: DS.attr('string', { persistToServer: true }),
   company:          DS.attr('string', { persistToServer: true }),
-  fullName:         Ember.computed('firstName', 'lastName', function() {
-    fullName = this.get('firstName') + ' ' + this.get('lastName');
+  fullName:         Ember.computed('firstname', 'lastname', function() {
+    let fullName = this.firstname + ' ' + this.lastname;
     if(fullName)
       return fullName;
     else
