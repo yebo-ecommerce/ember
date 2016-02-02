@@ -1,6 +1,6 @@
 {
   "name": "yebo-ember-core",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Core data infrastructure for a Yebo Ember Application.",
   "directories": {
     "doc": "doc",
