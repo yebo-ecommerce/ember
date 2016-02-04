@@ -24,8 +24,7 @@ export default DS.Model.extend({
 
   // Installments Attributes
   hasInstallments: DS.attr("boolean"),
-  installments: DS.attr("string"),
-  installmentValue: DS.attr('string'),
+  installments: DS.attr(),
   // rawInstallmentValue: DS.attr('number'),
 
   // Relationships
