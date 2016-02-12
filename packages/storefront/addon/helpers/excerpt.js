@@ -17,7 +17,7 @@ export default Ember.Helper.helper(function(params, hash) {
   let size = params[1];
   let appendToEnd = params[2] || " ... ";
 
-  if (string.length > size) {
+  if (typeof string !== "undefined" && string.length > size) {
     var theString = string.substring(0, size) + appendToEnd;
     return new Ember.Handlebars.SafeString(theString);
   } else {
