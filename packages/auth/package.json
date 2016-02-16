@@ -1,6 +1,6 @@
 {
   "name": "yebo-ember-auth",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "Authentication for a Yebo Ember Application.",
   "directories": {
     "doc": "doc",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.1.2",
-    "ember-cli": "1.13.8",
+    "ember-cli": "1.13.15",
     "ember-cli-app-version": "0.5.0",
     "ember-cli-content-security-policy": "0.4.0",
     "ember-cli-dependency-checker": "^1.0.1",
@@ -42,8 +42,8 @@
     "ember-addon"
   ],
   "dependencies": {
-    "yebo-ember-core": "0.2.2",
-    "yebo-ember-storefront": "0.2.2",
+    "yebo-ember-core": "0.2.4",
+    "yebo-ember-storefront": "0.2.4",
     "ember-cli-babel": "^5.1.3",
     "ember-cli-htmlbars": "0.7.9",
     "ember-simple-auth": "1.0.1"

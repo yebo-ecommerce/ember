@@ -3,11 +3,9 @@
 
 module.exports = {
   name: 'yebo-ember-auth',
-
-  isDevelopingAddon: function() {
-    return true;
-  },
-
+  // isDevelopingAddon: function() {
+  //   return true;
+  // },
   included: function(app) {
     this._super.included(app);
 

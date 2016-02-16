@@ -24,8 +24,17 @@ export default DS.Model.extend({
   // rawDiscountPrice: DS.attr('number'),
 
   // Installments Attributes
-  has_installments: DS.attr("boolean"),
-  installments: DS.attr('number'),
-  installmentValue: DS.attr('string'),
-  // rawInstallmentValue: DS.attr('number'),
+  hasInstallments: DS.attr("boolean"),
+  installments: DS.attr(),
+  installment: Ember.computed('installments', function(){
+    let installments = {}
+
+    this.get("installments").forEach((installment) => {
+      let propertyName = _camelCase(installment.name);
+      let installmentsArray = _toArray(installment.installments);
+      installments[propertyName] = { size: installmentsArray.length, value: installmentsArray.get("lastObject.display") }
+    });
+
+    return installments;
+  }),
 });
