@@ -23,7 +23,7 @@ RUN \
 	make install
 
 # Define APP NAME
-ENV APP_HOME /yebo-ember
+ENV APP_HOME /current
 
 # Create folder
 RUN mkdir /$APP_HOME
