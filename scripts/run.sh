@@ -10,7 +10,6 @@ run_dev () {
     -w $WORKDIR \
     $(printf '\t-v %s\n' "${VOLUMES[@]}") \
     --volumes-from npmcache \
-    -p 4200:4200 -p 49152:49152 \
     $APP_NAME 'scripts/wrapper.sh' $@
 }
 

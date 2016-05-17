@@ -2,6 +2,10 @@ FROM node:4.0.0
 
 # Define User
 ENV USER root
+ENV EMBER_TRY_SCENARIO default
+ENV EMBER_TRY_SCENARIO ember-release
+ENV EMBER_TRY_SCENARIO ember-beta
+ENV EMBER_TRY_SCENARIO ember-canary
 
 # Note: npm is v2.7.6
 RUN npm install -g ember-cli --allow-root
